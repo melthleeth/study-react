@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/study-react/Section_3/monsters-rolodex/static/css/main.8a1f6992.chunk.css",
-    "main.js": "/study-react/Section_3/monsters-rolodex/static/js/main.a22ce5d3.chunk.js",
-    "main.js.map": "/study-react/Section_3/monsters-rolodex/static/js/main.a22ce5d3.chunk.js.map",
-    "runtime-main.js": "/study-react/Section_3/monsters-rolodex/static/js/runtime-main.dbe34c86.js",
-    "runtime-main.js.map": "/study-react/Section_3/monsters-rolodex/static/js/runtime-main.dbe34c86.js.map",
-    "static/js/2.557db352.chunk.js": "/study-react/Section_3/monsters-rolodex/static/js/2.557db352.chunk.js",
-    "static/js/2.557db352.chunk.js.map": "/study-react/Section_3/monsters-rolodex/static/js/2.557db352.chunk.js.map",
-    "static/js/3.48bb79ca.chunk.js": "/study-react/Section_3/monsters-rolodex/static/js/3.48bb79ca.chunk.js",
-    "static/js/3.48bb79ca.chunk.js.map": "/study-react/Section_3/monsters-rolodex/static/js/3.48bb79ca.chunk.js.map",
-    "index.html": "/study-react/Section_3/monsters-rolodex/index.html",
-    "static/css/main.8a1f6992.chunk.css.map": "/study-react/Section_3/monsters-rolodex/static/css/main.8a1f6992.chunk.css.map",
-    "static/js/2.557db352.chunk.js.LICENSE.txt": "/study-react/Section_3/monsters-rolodex/static/js/2.557db352.chunk.js.LICENSE.txt"
+    "main.css": "/study-react/static/css/main.8a1f6992.chunk.css",
+    "main.js": "/study-react/static/js/main.a22ce5d3.chunk.js",
+    "main.js.map": "/study-react/static/js/main.a22ce5d3.chunk.js.map",
+    "runtime-main.js": "/study-react/static/js/runtime-main.1e064256.js",
+    "runtime-main.js.map": "/study-react/static/js/runtime-main.1e064256.js.map",
+    "static/js/2.557db352.chunk.js": "/study-react/static/js/2.557db352.chunk.js",
+    "static/js/2.557db352.chunk.js.map": "/study-react/static/js/2.557db352.chunk.js.map",
+    "static/js/3.48bb79ca.chunk.js": "/study-react/static/js/3.48bb79ca.chunk.js",
+    "static/js/3.48bb79ca.chunk.js.map": "/study-react/static/js/3.48bb79ca.chunk.js.map",
+    "index.html": "/study-react/index.html",
+    "static/css/main.8a1f6992.chunk.css.map": "/study-react/static/css/main.8a1f6992.chunk.css.map",
+    "static/js/2.557db352.chunk.js.LICENSE.txt": "/study-react/static/js/2.557db352.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.dbe34c86.js",
+    "static/js/runtime-main.1e064256.js",
     "static/js/2.557db352.chunk.js",
     "static/css/main.8a1f6992.chunk.css",
     "static/js/main.a22ce5d3.chunk.js"
