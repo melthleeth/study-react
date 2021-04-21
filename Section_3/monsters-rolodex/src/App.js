@@ -10,6 +10,7 @@ class App extends Component {
     this.state = {
       monsters: [],
       searchField: "",
+      count: 30,
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -25,6 +26,14 @@ class App extends Component {
     this.setState({ searchField: e.target.value });
   }
 
+  handleClick = () => {
+    this.setState((prevState, prevProps) => {
+      return { count: prevState.count + prevProps.increment }
+    },
+    () => console.log("callback", this.state.count))
+    console.log("out of setState", this.state.count);
+  }
+
   render() {
     const { monsters, searchField } = this.state;
     /*
@@ -37,6 +46,8 @@ class App extends Component {
     );
     return (
       <div className="App">
+        <button onClick={this.handleClick}>Update State</button>
+        <p>{this.state.count}</p>
         <h1>Monsters Rolodex</h1>
         <SearchBox
           placeholder="search monsters"
