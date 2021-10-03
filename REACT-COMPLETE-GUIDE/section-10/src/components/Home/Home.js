@@ -1,9 +1,9 @@
-import React, { useContext } from 'react';
+import React, { useContext } from "react";
 
-import Card from '../UI/Card/Card';
-import Button from '../UI/Button/Button';
-import classes from './Home.module.css';
-import AuthContext from '../../store/auth-context';
+import Card from "../UI/Card/Card";
+import Button from "../UI/Button/Button";
+import classes from "./Home.module.css";
+import AuthContext from "../../store/auth-context";
 
 const Home = (props) => {
   const authCtx = useContext(AuthContext);
