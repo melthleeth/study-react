@@ -44,8 +44,6 @@ function App() {
       }
 
       setMovies(loadedMovies);
-
-      // setMovies(transformedMovies);
     } catch (error) {
       setError(error.message);
     }
