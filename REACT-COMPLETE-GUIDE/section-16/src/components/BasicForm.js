@@ -37,6 +37,8 @@ const BasicForm = (props) => {
   const submitFormHandler = (event) => {
     event.preventDefault();
 
+    if (!formIsValid) return; // make sure to check double
+
     console.log(enteredFirstName, enteredLastName, `(${enteredEmail})`);
 
     resetFirstNameInput();
