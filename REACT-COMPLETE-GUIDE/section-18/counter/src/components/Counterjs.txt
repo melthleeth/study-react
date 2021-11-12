@@ -1,0 +1,36 @@
+이전 코드 (counterActions 적용 전)
+
+const incrementHandler = () => {
+    dispatch({
+      type: "increment",
+    });
+  };
+
+  const increaseHandler = () => {
+    dispatch({
+      type: "increase",
+      amount: 5,
+    });
+  };
+
+  const decrementHandler = () => {
+    dispatch({
+      type: "decrement",
+    });
+  };
+
+  const toggleCounterHandler = () => {
+    dispatch({
+      type: "toggle",
+    });
+  };
+
+
+  // store.js code split 전
+  const store = configureStore({
+  reducer: { counter: counterSlice.reducer, auth: authSlice.reducer },
+});
+
+export const counterActions = counterSlice.actions;
+export const authActions = authSlice.actions;
+export default store;
