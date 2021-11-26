@@ -7,11 +7,6 @@ import LoadingSpinner from "../components/UI/LoadingSpinner";
 import useHttp from "../hooks/use-http";
 import { getSingleQuote } from "../lib/api";
 
-const DUMMY_QUOTES = [
-  { id: "q1", author: "Sylvie", text: "Marketing is difficult" },
-  { id: "q2", author: "Emily", text: "We're on the same line!" },
-];
-
 const QuoteDetail = () => {
   const params = useParams();
 

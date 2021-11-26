@@ -17,9 +17,9 @@ const NewQuote = () => {
 
   const addQuoteHandler = (quoteData) => {
     sendRequest(quoteData);
-    console.log(quoteData);
+    // console.log(quoteData);
 
-    navigate("/quotes");
+    // navigate("/quotes");
   };
   return (
     <QuoteForm isLoading={status === "pending"} onAddQuote={addQuoteHandler} />
